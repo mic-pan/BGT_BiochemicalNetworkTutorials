@@ -1,0 +1,11 @@
+name: python 3.7
+dependencies:
+  - python=3.7
+  - numpy
+  - matplotlib
+  - sympy
+  - pip
+  - pip:
+    - julia==0.1.5
+    - diffeqpy==0.4
+    - BondGraphTools
