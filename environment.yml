@@ -6,4 +6,6 @@ dependencies:
   - sympy
   - pip
   - pip:
+    - julia=0.1.5
+    - diffeqpy=0.4
     - BondGraphTools
