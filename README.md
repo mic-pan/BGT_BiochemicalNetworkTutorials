@@ -7,6 +7,8 @@ This tutorial deals with the creation and simulation of biochemical networks usi
 
 
 ## Notebooks
+[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/michaelpan92/BGT_BiochemicalNetworkTutorials/tree/master/) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/michaelpan92/BGT_BiochemicalNetworkTutorials/master)
+
 Notebook | nbviewer
 --- | ---
 [1 - Constructing simple examples with bond graphs](https://github.com/michaelpan92/BGT_BiochemicalNetworkTutorials/blob/master/1%20-%20Constructing%20simple%20examples%20with%20bond%20graphs.ipynb) | [![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/michaelpan92/BGT_BiochemicalNetworkTutorials/blob/master/1%20-%20Constructing%20simple%20examples%20with%20bond%20graphs.ipynb)
