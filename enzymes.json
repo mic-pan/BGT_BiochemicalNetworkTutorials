@@ -1,0 +1,27 @@
+{
+    "description": "Enzyme catalysed reactions",
+    "id":"Enzyme",
+    "components":{
+      "R_MM":{
+        "description": "Michaelis-Menten reaction",
+        "class": "Component",
+        "metamodel":"R",
+        "ports":{
+          "0":{"description":"Substrate"},
+          "1":{"description":"Product"}
+        },
+        "params":{
+          "r1":{"description":"Rate of reaction 1"},
+          "r2":{"description":"Rate of reaction 2"},
+          "k_c":{"description":"Affinity of complex relative to free enzyme"},
+          "e_T":{"description":"Total amount of enzyme"},
+          "R":{"description":"Universal Gas Constant"},
+          "T":{"description": "Temperature"}
+        },
+        "constitutive_relations":[
+          "f_0 + f_1",
+          "f_0 - e_T*r1*r2*k_c*(exp(e_0/R/T) - exp(e_1/R/T)) / (r1*exp(e_0/R/T) + r2*exp(e_1/R/T) + k_c*(r1+r2))"
+        ]
+      }
+    }
+  }
