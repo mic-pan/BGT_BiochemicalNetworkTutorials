@@ -1,11 +1,11 @@
-name: python 3.7
+name: python 3.8
 dependencies:
-  - python=3.7
-  - numpy
-  - matplotlib
-  - sympy
+  - python=3.8
+  - scikits.odes==2.6.1
+  - numpy==1.21.1
+  - matplotlib==3.4.3
+  - sympy==1.8
+  - networkx==2.6.2
   - pip
   - pip:
-    - julia==0.1.5
-    - diffeqpy==0.4
-    - BondGraphTools
+    - BondGraphTools==0.4.4
